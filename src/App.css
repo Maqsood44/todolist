@@ -1,0 +1,89 @@
+/* YourComponent.css */
+@import '@fortawesome/fontawesome-free/css/all.css'; /* Corrected import path */
+
+
+
+
+body{
+    background-color: #1e5ab3;
+}
+
+.main{
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #233244b7;
+    border-radius: 10px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.App-name{
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color: #3f486e;
+}
+
+.App-name::before{
+    content: "\f135"; 
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900; 
+    margin-right: 8px;
+}
+
+.custom-input {
+    position: relative;
+  }
+
+  .custom-input input {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #f3f4f6;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .add-btn{
+    font-size: 3rem;
+    margin: auto 10px;
+    cursor: pointer;
+    color: #555658;
+    border-radius: 50%;
+  }
+
+  .add-btn:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    color: #137713;
+  }
+  .custom-input input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3498db80;
+  }
+
+  .complete{
+    color: #137713;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .delete{
+    color: #cc1414;
+    font-size: 2rem;
+    cursor: pointer;
+
+  }
+
+  .edit{
+    color: #252583;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .complete:hover, .edit:hover, .complete:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+  }
